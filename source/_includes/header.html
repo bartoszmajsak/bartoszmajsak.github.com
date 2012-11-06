@@ -9,11 +9,20 @@
 		{% if site.facebook_user %}
 		<a class="facebook" href="http://www.facebook.com/{{ site.facebook_user }}" title="Facebook">Facebook</a>
 		{% endif %}
-		{% if site.googleplus_user %}
-		<a class="google" href="https://plus.google.com/{{ site.googleplus_user }}" title="Google+">Google+</a>
+		{% if site.github_user %}
+		<a class="github" href="http://www.github.com/{{ site.github_user }}" title="Github">Github</a>
+		{% endif %}
+		{% if site.linkedin_profile %}
+		<a class="linkedin" href="http://linkedin.com/in/{{ site.linkedin_profile }}" title="Linkedin">Linkedin</a>
 		{% endif %}
 		{% if site.twitter_user %}
 		<a class="twitter" href="http://twitter.com/{{ site.twitter_user }}" title="Twitter">Twitter</a>
+		{% endif %}
+		{% if site.googleplus_user %}
+		<a class="google" href="https://plus.google.com/{{ site.googleplus_user }}" title="Google+">Google+</a>
+		{% endif %}
+		{% if site.lastfm_user %}
+		<a class="lastfm" href="http://lastfm.com/{{ site.lastfm_user }}" title="Last FM">LastFm</a>
 		{% endif %}
 		{% if site.subscribe_rss %}
 		<a class="rss" href="{{ site.subscribe_rss }}" title="RSS">RSS</a>
