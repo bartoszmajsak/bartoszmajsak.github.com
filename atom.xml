@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[-To be defined-]]></title>
+  <link href="http://bartoszmajsak.github.com/atom.xml" rel="self"/>
+  <link href="http://bartoszmajsak.github.com/"/>
+  <updated>2012-11-06T13:45:00+01:00</updated>
+  <id>http://bartoszmajsak.github.com/</id>
+  <author>
+    <name><![CDATA[Bartosz Majsak]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
