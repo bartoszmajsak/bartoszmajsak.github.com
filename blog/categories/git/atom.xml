@@ -4,7 +4,7 @@
   <title><![CDATA[Category: git | -To be defined-]]></title>
   <link href="http://bartoszmajsak.github.com/blog/categories/git/atom.xml" rel="self"/>
   <link href="http://bartoszmajsak.github.com/"/>
-  <updated>2012-11-07T17:20:56+01:00</updated>
+  <updated>2012-11-07T18:06:17+01:00</updated>
   <id>http://bartoszmajsak.github.com/</id>
   <author>
     <name><![CDATA[Bartosz Majsak]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Lazy Developer's Toolbox #1 - Prepend git commit messages]]></title>
     <link href="http://bartoszmajsak.github.com/blog/2012/11/07/lazy-developers-toolbox-number-1-prepend-git-commit-messages/"/>
-    <updated>2012-11-07T18:16:00+01:00</updated>
+    <updated>2012-11-07T17:21:00+01:00</updated>
     <id>http://bartoszmajsak.github.com/blog/2012/11/07/lazy-developers-toolbox-number-1-prepend-git-commit-messages</id>
     <content type="html"><![CDATA[<p>Being a good citizen of the open source community means following the rules concerning software development defined by the team. One of it, <a href="http://www.commitlogsfromlastnight.com/">sadly the one very frequently neglected</a>, is meaningful commit message with a reference to the task you worked on. Such an info can be later leveraged by tools like FishEye, but that's another story. So what's the problem with that for lazy guys like me?</p>
 
@@ -721,7 +721,13 @@ I think you should use an
 </code></pre></noscript></div>
 </p>
 
-<p>From now on we don't need to remember the issue number anymore! Life is so easier ;)</p>
+<p>From now on we don't need to remember the issue number anymore! Executing</p>
+
+<pre><code>$ git commit -m"Introduced new property in configuration file \ 
+to define default (global) transaction mode" 
+</code></pre>
+
+<p>will result with <code>[ARQ-1168] Introduced new property in configuration file to define default (global) transaction mode</code> as commit message. Life is so easier now ;)</p>
 
 <p><em><strong>Note:</strong> If you are using Eclipse git integration this approach won't work. EGit is not aware of commit hooks.</em></p>
 ]]></content>
