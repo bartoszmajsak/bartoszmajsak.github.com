@@ -10,7 +10,7 @@ Being a good citizen of the open source community means following the rules conc
 
 <!-- More -->
 
-On my open source nigth shifts I'm mainly involved in [Arquillian project](http://arquillian.org) (more about it soon). All our code is [on GitHub](http://github.com/arquillian). Each time I work on some task I'm creating a feature branch with the corresponding name (for instance [ARQ-1186](https://issues.jboss.org/browse/ARQ-1186)). When I'm done with the work (or consistent part of it) I commit my changes:
+On my open source night shifts I'm mainly involved in [Arquillian project](http://arquillian.org) (more about it soon). All our code is [on GitHub](http://github.com/arquillian). Each time I work on some task I'm creating a feature branch with the corresponding name (for instance [ARQ-1186](https://issues.jboss.org/browse/ARQ-1186)). When I'm done with the work (or consistent part of it) I commit my changes:
 
 	$ git commit -m"[ARQ-1186] Introduced new property in configuration  \
 	file to define default (global) transaction mode"
@@ -21,7 +21,7 @@ So one day I was wondering if it would be possible to prepend commit message usi
 
 ### Git hooks
 
-Git is very powerful tool so no suprise that it has a concept of [hooks](http://git-scm.com/book/en/Customizing-Git-Git-Hooks). Hooks are scripts written in any language your shell supports executed at the given point of the git workflow. In our case we are interested in executing script on client side before we commit. Let's have a look what kind of local hooks we have in our repository folder `.git/hooks`:
+Git is very powerful tool so no surprise that it has a concept of [hooks](http://git-scm.com/book/en/Customizing-Git-Git-Hooks). Hooks are scripts written in any language your shell supports executed at the given point of the git workflow. In our case we are interested in executing script on client side before we commit. Let's have a look what kind of local hooks we have in our repository's `.git/hooks` folder :
 
 	├── applypatch-msg.sample
 	├── commit-msg.sample
