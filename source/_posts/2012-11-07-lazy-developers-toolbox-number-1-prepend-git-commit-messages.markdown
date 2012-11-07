@@ -40,6 +40,9 @@ In order to increase our productivity (or keep our lazy nature happy) we simply 
 
 {% gist 1396344 prepare-commit-msg.sh %}
 
-From now on we don't need to remember the issue number anymore! Life is so easier ;)
+From now on we don't need to remember the issue number anymore! Executing 
+	$ git commit -m"Introduced new property in configuration file \ 
+	to define default (global) transaction mode" 
+will result with `[ARQ-1168] Introduced new property in configuration file to define default (global) transaction mode` as commit message. Life is so easier now ;)
 
 _**Note:** If you are using Eclipse git integration this approach won't work. EGit is not aware of commit hooks._
