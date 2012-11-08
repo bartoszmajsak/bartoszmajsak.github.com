@@ -15,13 +15,13 @@ On my open source night shifts I'm mainly involved in [Arquillian project](http:
 	$ git commit -m"[ARQ-1186] Introduced new property in configuration  \
 	file to define default (global) transaction mode"
 
-But there's a little annoying problem with this... I'm not really that keen to memorize the issue number and type these few extra characters by hand each and every time (yes! I'm that lazy!). Obviously you can always customize your shell by using [git-completion](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash) for instance, but that only solves part of the problem. You don't need to remember this bloody issue number, but you still need to type it.
+But there's a little annoying problem with this... I'm not really that keen to memorize the issue number and type these few extra characters by hand each and every time (yes! I'm that lazy!). Obviously you can always customize your shell by using [recipies from this blog](http://www.japko.net/blog/lang/en/2012/05/29/pimp-my-git/) for instance, but that only solves part of the problem. You don't need to remember this bloody issue number, but you still need to type it.
 
 So one day I was wondering if it would be possible to prepend commit message using branch information. It turned out to be damn easy.
 
 ### Git hooks
 
-Git is very powerful tool so no surprise that it has a concept of [hooks](http://git-scm.com/book/en/Customizing-Git-Git-Hooks). Hooks are scripts written in any language your shell supports executed at the given point of the git workflow. In our case we are interested in executing script on client side before we commit. Let's have a look what kind of local hooks we have in our repository's `.git/hooks` folder :
+Git is very powerful tool so no surprise that it has a concept of [hooks](http://git-scm.com/book/en/Customizing-Git-Git-Hooks). Hooks are scripts executed at the certain point of the git workflow. They can be written in any language your shell supports. In our case we are interested in executing script on client side before we commit. Let's have a look what kind of local hooks we have in our repository's `.git/hooks` folder :
 
 	├── applypatch-msg.sample
 	├── commit-msg.sample
@@ -43,6 +43,6 @@ In order to increase our productivity (or keep our lazy nature happy) we simply 
 From now on we don't need to remember the issue number anymore! Executing 
 	$ git commit -m"Introduced new property in configuration file \ 
 	to define default (global) transaction mode" 
-will result with `[ARQ-1168] Introduced new property in configuration file to define default (global) transaction mode` as commit message. Life is so easier now ;)
+will result with `[ARQ-1186] Introduced new property in configuration file to define default (global) transaction mode` as commit message. Life is so easier now ;)
 
 _**Note:** If you are using Eclipse git integration this approach won't work. EGit is not aware of commit hooks._
