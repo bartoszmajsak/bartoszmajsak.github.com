@@ -22,7 +22,7 @@ There is a simple way of enabling it in _bash_ - very nice [autocompletion scrip
 
 ```
 $ curl https://raw.github.com/juven/maven-bash-completion/master/bash_completion.bash >>  \
-.maven_bash_completion.sh && echo 'source ~/.maven_bash_completion.sh' >> .bashrc
+.maven_bash_completion.sh && echo 'source ~/.maven_bash_completion.sh' >> ~/.bashrc
 ```
 
 ### Pimp your Maven
@@ -31,7 +31,7 @@ Here's something extra (meaning it does not bring any value for lazy guys I gues
 
 ```
 $ curl https://raw.github.com/builddoctor/maven-antsy-color/master/mvn >>  \
-.maven_colorized.sh && echo 'source ~/.maven_colorized.sh' >> .bashrc
+.maven_colorized.sh && echo 'source ~/.maven_colorized.sh' >> ~/.bashrc
 ```
 
 If you have some other cool tips just leave a comment!
