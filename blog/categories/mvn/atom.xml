@@ -4,7 +4,7 @@
   <title><![CDATA[Category: mvn | -To be defined-]]></title>
   <link href="http://bartoszmajsak.github.com/blog/categories/mvn/atom.xml" rel="self"/>
   <link href="http://bartoszmajsak.github.com/"/>
-  <updated>2012-11-09T00:30:58+01:00</updated>
+  <updated>2012-12-17T12:00:02+01:00</updated>
   <id>http://bartoszmajsak.github.com/</id>
   <author>
     <name><![CDATA[Bartosz Majsak]]></name>
@@ -35,7 +35,7 @@ $ mvn -P&lt;TAB&gt;
 
 <p><code>
 $ curl https://raw.github.com/juven/maven-bash-completion/master/bash_completion.bash &gt;&gt;  \
-.maven_bash_completion.sh &amp;&amp; echo 'source ~/.maven_bash_completion.sh' &gt;&gt; .bashrc
+.maven_bash_completion.sh &amp;&amp; echo 'source ~/.maven_bash_completion.sh' &gt;&gt; ~/.bashrc
 </code></p>
 
 <h3>Pimp your Maven</h3>
@@ -44,7 +44,7 @@ $ curl https://raw.github.com/juven/maven-bash-completion/master/bash_completion
 
 <p><code>
 $ curl https://raw.github.com/builddoctor/maven-antsy-color/master/mvn &gt;&gt;  \
-.maven_colorized.sh &amp;&amp; echo 'source ~/.maven_colorized.sh' &gt;&gt; .bashrc
+.maven_colorized.sh &amp;&amp; echo 'source ~/.maven_colorized.sh' &gt;&gt; ~/.bashrc
 </code></p>
 
 <p>If you have some other cool tips just leave a comment!</p>
