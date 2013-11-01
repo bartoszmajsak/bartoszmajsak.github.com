@@ -1,0 +1,73 @@
+footer{
+	padding: 15px 0;
+	border-top: 1px solid $color-gray05;
+	text-align: center;
+	font-size: 0.9em;
+	
+	.social{
+			margin-right: 15px;
+			a{
+				@include border-radius(50%);
+				@include inline-block;
+				text-indent: -9999px;
+				margin-left: 8px;
+				opacity: 0.5;
+				@include square(28px);
+				@include transition(0.3s);
+				&:hover{
+					opacity: 1;
+				}
+				&.facebook{
+					background: image-url('facebook.png') center no-repeat #3B5998;
+					border: 1px solid #3B5998;
+					&:hover{
+									border: 1px solid darken(#3B5998, 10%);
+					}
+				}
+				&.google{
+					background: image-url('custom/google-plus.png') center no-repeat #C83D20;
+					border: 1px solid #C83D20;
+					&:hover{
+						border: 1px solid darken(#C83D20, 10%);
+					}
+				}
+				&.lastfm{
+					background: image-url('custom/lastfm.png') center no-repeat #C83D20;
+					border: 1px solid #C83D20;
+					&:hover{
+						border: 1px solid darken(#C83D20, 10%);
+					}
+				}
+				&.linkedin{
+					background: image-url('custom/linkedin.png') center no-repeat #3B5998;
+					border: 1px solid #3B5998;
+					&:hover{
+						border: 1px solid darken(#3B5998, 10%);
+					}
+				}
+				&.github{
+					background: image-url('custom/github.png') center no-repeat #CDCDCD;
+					border: 1px solid #CDCDCD;
+					&:hover{
+						border: 1px solid darken(#CDCDCD, 10%);
+					}
+				}
+				&.twitter{
+					background: image-url('custom/twitter.png') center no-repeat #55CFF8;
+					border: 1px solid #55CFF8;
+					&:hover{
+						border: 1px solid darken(#55CFF8, 10%);
+					}
+				}
+				&.rss{
+					background: image-url('rss.png') center no-repeat #EF7522;
+					border: 1px solid #EF7522;
+					&:hover{
+						border: 1px solid darken(#EF7522, 10%);
+					}
+				}
+		}
+	}
+
+}
+
