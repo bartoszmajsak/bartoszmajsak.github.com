@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[-To be defined-]]></title>
-  <link href="http://bartoszmajsak.github.com/atom.xml" rel="self"/>
-  <link href="http://bartoszmajsak.github.com/"/>
-  <updated>2012-12-17T12:00:33+01:00</updated>
-  <id>http://bartoszmajsak.github.com/</id>
+  <link href="http://blog.bartoszmajsak.com/atom.xml" rel="self"/>
+  <link href="http://blog.bartoszmajsak.com/"/>
+  <updated>2013-11-01T13:43:32+01:00</updated>
+  <id>http://blog.bartoszmajsak.com/</id>
   <author>
     <name><![CDATA[Bartosz Majsak]]></name>
     
@@ -15,15 +15,15 @@
   
   <entry>
     <title type="html"><![CDATA[Lazy Developer's Toolbox #2 - Slightly Better Maven]]></title>
-    <link href="http://bartoszmajsak.github.com/blog/2012/11/08/lazy-developers-toolbox-number-2-slightly-better-maven/"/>
+    <link href="http://blog.bartoszmajsak.com/blog/2012/11/08/lazy-developers-toolbox-number-2-slightly-better-maven/"/>
     <updated>2012-11-08T21:12:00+01:00</updated>
-    <id>http://bartoszmajsak.github.com/blog/2012/11/08/lazy-developers-toolbox-number-2-slightly-better-maven</id>
-    <content type="html"><![CDATA[<p>I must admit I&#8217;m not really a huge fan of Maven, but I&#8217;m not going to rant how much <em>maven sucks</em> in this post. This tool brought quite a bit of good things to the build automation landscape in Java. Instead I will share with you how to make it a bit more pleasant to use. It&#8217;s still de facto a standard in open source world so I guess I will keep it in my toolbox for a little longer.</p>
+    <id>http://blog.bartoszmajsak.com/blog/2012/11/08/lazy-developers-toolbox-number-2-slightly-better-maven</id>
+    <content type="html"><![CDATA[<p>I must admit I&rsquo;m not really a huge fan of Maven, but I&rsquo;m not going to rant how much <em>maven sucks</em> in this post. This tool brought quite a bit of good things to the build automation landscape in Java. Instead I will share with you how to make it a bit more pleasant to use. It&rsquo;s still de facto a standard in open source world so I guess I will keep it in my toolbox for a little longer.</p>
 
 <!-- More -->
 
 
-<p>One of the concepts which is really handy is <em>profile</em>. But isn&#8217;t it a bit annoying when you make a typo in the name to discover it only after the whole build is done? Wouldn&#8217;t it be cool to have autocompletion in the command line? Something like:</p>
+<p>One of the concepts which is really handy is <em>profile</em>. But isn&rsquo;t it a bit annoying when you make a typo in the name to discover it only after the whole build is done? Wouldn&rsquo;t it be cool to have autocompletion in the command line? Something like:</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -33,7 +33,7 @@
 </span><span class='line'>-Pjbossas-7.0-managed     </span></code></pre></td></tr></table></div></figure>
 
 
-<p>There is a simple way of enabling it in <em>bash</em> - very nice <a href="https://github.com/juven/maven-bash-completion/">autocompletion script</a>. Run this commands then restart your shell. You will be few keystrokes ahead.</p>
+<p>There is a simple way of enabling it in <em>bash</em> &ndash; very nice <a href="https://github.com/juven/maven-bash-completion/">autocompletion script</a>. Run this commands then restart your shell. You will be few keystrokes ahead.</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -43,7 +43,7 @@
 
 <h3>Pimp your Maven</h3>
 
-<p>Here&#8217;s something extra (meaning it does not bring any value for lazy guys I guess). Maven is well known for being a chatterbox, next to its passion for downloading the whole internet once in a while. It would be pretty handy to mark failures in red, warnings in yellow and so on and so forth. This <a href="https://github.com/bartoszmajsak/maven-antsy-color/blob/master/mvn"><em>sed</em> script</a> will do the job. Run following snippet and enjoy the rainbow!</p>
+<p>Here&rsquo;s something extra (meaning it does not bring any value for lazy guys I guess). Maven is well known for being a chatterbox, next to its passion for downloading the whole internet once in a while. It would be pretty handy to mark failures in red, warnings in yellow and so on and so forth. This <a href="https://github.com/bartoszmajsak/maven-antsy-color/blob/master/mvn"><em>sed</em> script</a> will do the job. Run following snippet and enjoy the rainbow!</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -57,27 +57,27 @@
   
   <entry>
     <title type="html"><![CDATA[Lazy Developer's Toolbox #1 - Prepend git commit messages]]></title>
-    <link href="http://bartoszmajsak.github.com/blog/2012/11/07/lazy-developers-toolbox-number-1-prepend-git-commit-messages/"/>
+    <link href="http://blog.bartoszmajsak.com/blog/2012/11/07/lazy-developers-toolbox-number-1-prepend-git-commit-messages/"/>
     <updated>2012-11-07T17:21:00+01:00</updated>
-    <id>http://bartoszmajsak.github.com/blog/2012/11/07/lazy-developers-toolbox-number-1-prepend-git-commit-messages</id>
-    <content type="html"><![CDATA[<p>Being a good citizen of the open source community means following the rules concerning software development defined by the team. One of it, <a href="http://www.commitlogsfromlastnight.com/">sadly the one very frequently neglected</a>, is meaningful commit message with a reference to the task you worked on. Such an info can be later leveraged by tools like FishEye, but that&#8217;s another story. So what&#8217;s the problem with that for lazy guys like me?</p>
+    <id>http://blog.bartoszmajsak.com/blog/2012/11/07/lazy-developers-toolbox-number-1-prepend-git-commit-messages</id>
+    <content type="html"><![CDATA[<p>Being a good citizen of the open source community means following the rules concerning software development defined by the team. One of it, <a href="http://www.commitlogsfromlastnight.com/">sadly the one very frequently neglected</a>, is meaningful commit message with a reference to the task you worked on. Such an info can be later leveraged by tools like FishEye, but that&rsquo;s another story. So what&rsquo;s the problem with that for lazy guys like me?</p>
 
 <!-- More -->
 
 
-<p>On my open source night shifts I&#8217;m mainly involved in <a href="http://arquillian.org">Arquillian project</a> (more about it soon). All our code is <a href="http://github.com/arquillian">on GitHub</a>. Each time I work on some task I&#8217;m creating a feature branch with the corresponding name (for instance <a href="https://issues.jboss.org/browse/ARQ-1186">ARQ-1186</a>). When I&#8217;m done with the work (or consistent part of it) I commit my changes:</p>
+<p>On my open source night shifts I&rsquo;m mainly involved in <a href="http://arquillian.org">Arquillian project</a> (more about it soon). All our code is <a href="http://github.com/arquillian">on GitHub</a>. Each time I work on some task I&rsquo;m creating a feature branch with the corresponding name (for instance <a href="https://issues.jboss.org/browse/ARQ-1186">ARQ-1186</a>). When I&rsquo;m done with the work (or consistent part of it) I commit my changes:</p>
 
 <pre><code>$ git commit -m"[ARQ-1186] Introduced new property in configuration  \
 file to define default (global) transaction mode"
 </code></pre>
 
-<p>But there&#8217;s a little annoying problem with this&#8230; I&#8217;m not really that keen to memorize the issue number and type these few extra characters by hand each and every time (yes! I&#8217;m that lazy!). Obviously you can always customize your shell by using <a href="http://www.japko.net/blog/lang/en/2012/05/29/pimp-my-git/">recipies from this blog</a> for instance, but that only solves part of the problem. You don&#8217;t need to remember this bloody issue number, but you still need to type it.</p>
+<p>But there&rsquo;s a little annoying problem with this&hellip; I&rsquo;m not really that keen to memorize the issue number and type these few extra characters by hand each and every time (yes! I&rsquo;m that lazy!). Obviously you can always customize your shell by using <a href="http://www.japko.net/blog/lang/en/2012/05/29/pimp-my-git/">recipies from this blog</a> for instance, but that only solves part of the problem. You don&rsquo;t need to remember this bloody issue number, but you still need to type it.</p>
 
 <p>So one day I was wondering if it would be possible to prepend commit message using branch information. It turned out to be damn easy.</p>
 
 <h3>Git hooks</h3>
 
-<p>Git is very powerful tool so no surprise that it has a concept of <a href="http://git-scm.com/book/en/Customizing-Git-Git-Hooks">hooks</a>. Hooks are scripts executed at the certain point of the git workflow. They can be written in any language your shell supports. In our case we are interested in executing script on client side before we commit. Let&#8217;s have a look what kind of local hooks we have in our repository&#8217;s <code>.git/hooks</code> folder :</p>
+<p>Git is very powerful tool so no surprise that it has a concept of <a href="http://git-scm.com/book/en/Customizing-Git-Git-Hooks">hooks</a>. Hooks are scripts executed at the certain point of the git workflow. They can be written in any language your shell supports. In our case we are interested in executing script on client side before we commit. Let&rsquo;s have a look what kind of local hooks we have in our repository&rsquo;s <code>.git/hooks</code> folder :</p>
 
 <pre><code>├── applypatch-msg.sample
 ├── commit-msg.sample
@@ -89,7 +89,7 @@ file to define default (global) transaction mode"
 └── update.sample
 </code></pre>
 
-<p>The names are rather self explanatory - we should use <code>prepare-commit-message</code> hook to achieve our goal.</p>
+<p>The names are rather self explanatory &ndash; we should use <code>prepare-commit-message</code> hook to achieve our goal.</p>
 
 <h3>A little bit of bash fu</h3>
 
@@ -763,7 +763,7 @@ I think you should use an
 </code></pre></noscript></div>
 
 
-<p>From now on we don&#8217;t need to remember the issue number anymore! Executing</p>
+<p>From now on we don&rsquo;t need to remember the issue number anymore! Executing</p>
 
 <pre><code>$ git commit -m"Introduced new property in configuration file \ 
 to define default (global) transaction mode" 
@@ -771,7 +771,7 @@ to define default (global) transaction mode"
 
 <p>will result with <code>[ARQ-1186] Introduced new property in configuration file to define default (global) transaction mode</code> as commit message. Life is so easier now ;)</p>
 
-<p><em><strong>Note:</strong> If you are using Eclipse git integration this approach won&#8217;t work. EGit is not aware of commit hooks.</em></p>
+<p><em><strong>Note:</strong> If you are using Eclipse git integration this approach won&rsquo;t work. EGit is not aware of commit hooks.</em></p>
 ]]></content>
   </entry>
   

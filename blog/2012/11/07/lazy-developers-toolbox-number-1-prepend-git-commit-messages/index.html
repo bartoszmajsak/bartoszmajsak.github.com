@@ -2,74 +2,96 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>Lazy Developer's Toolbox #1 - Prepend git commit messages - -To be defined-</title>
-    <meta name="author" content="Bartosz Majsak">
+	<meta charset="utf-8">
+	<title>Lazy Developer's Toolbox #1 - Prepend git commit messages - -To be defined-</title>
+	<meta name="author" content="Bartosz Majsak">
 
-    
-    <meta name="description" content="Lazy Developer's Toolbox #1 - Prepend Git Commit Messages Being a good citizen of the open source community means following the rules concerning &hellip;">
-    
-    <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+	
+	<meta name="description" content="Being a good citizen of the open source community means following the rules concerning software development defined by the team. One of it, sadly the &hellip;">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <link href="/atom.xml" rel="alternate" title="-To be defined-" type="application/atom+xml">
-    <link rel="canonical" href="">
-    <link href="/favicon-beer.png" rel="shortcut icon">
-    <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-    <!--[if lt IE 9]><script src="/javascripts/html5.js"></script><![endif]-->
-    <script src="/javascripts/jquery.min.js"></script>
-    
-    
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-1099123-2']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
-
-
+	<link href="/atom.xml" rel="alternate" title="-To be defined-" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script async="true" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	
 </head>
 
 
 <body>
-	<header class="inner"><h1 class="left"><a href="/">-To be defined-</a></h1>
-<nav class="menu left"><ul class="main">
+	<header id="header" class="inner"><h1><a href="/">-To be defined-</a></h1>
+<nav id="main-nav"><ul class="main">
 	<li><a href="/">Blog</a></li>
 	<li><a href="/blog/archives">Archives</a></li>
 </ul>
 </nav>
-<div class="right">
-	<form class="search right" action="http://google.com/search" method="get">
-		<input class="left" type="text" name="q" results="0">
-		<input type="hidden" name="q" value="site:bartoszmajsak.github.com">
-	</form>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul class="main">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
 </div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="http://google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:blog.bartoszmajsak.com">
+			</form>
+		</div>
+	</div>
+</nav>
+<nav id="sub-nav" class="alignright">
+	<form class="search" action="http://google.com/search" method="get">
+		<input class="alignright" type="text" name="q" results="0">
+		<input type="hidden" name="q" value="site:blog.bartoszmajsak.com">
+	</form>
+</nav>
 
 </header>
+	
+		
+<div id="banner" class="inner">
+	<div class="container">
+		<ul class="feed"></ul>
+	</div>
+	<small><a href="http://twitter.com/majson">majson</a> @ <a href="http://twitter.com">Twitter</a></small>
+	<div class="loading">Loading...</div>
+</div>
+<script src="/javascripts/twitter.js"></script>
+<script type="text/javascript">
+	(function($){
+		$('#banner').getTwitterFeed('majson', 4, false);
+	})(jQuery);
+</script>
+
+	
 	<div id="content" class="inner"><article class="post">
-    <h1 class="title">Lazy Developer's Toolbox #1 - Prepend Git Commit Messages</h1>
-    <div class="entry"><p>Being a good citizen of the open source community means following the rules concerning software development defined by the team. One of it, <a href="http://www.commitlogsfromlastnight.com/">sadly the one very frequently neglected</a>, is meaningful commit message with a reference to the task you worked on. Such an info can be later leveraged by tools like FishEye, but that&#8217;s another story. So what&#8217;s the problem with that for lazy guys like me?</p>
+	<h2 class="title">Lazy Developer's Toolbox #1 - Prepend Git Commit Messages</h2>
+	<div class="entry-content"><p>Being a good citizen of the open source community means following the rules concerning software development defined by the team. One of it, <a href="http://www.commitlogsfromlastnight.com/">sadly the one very frequently neglected</a>, is meaningful commit message with a reference to the task you worked on. Such an info can be later leveraged by tools like FishEye, but that&rsquo;s another story. So what&rsquo;s the problem with that for lazy guys like me?</p>
 
 <!-- More -->
 
 
-<p>On my open source night shifts I&#8217;m mainly involved in <a href="http://arquillian.org">Arquillian project</a> (more about it soon). All our code is <a href="http://github.com/arquillian">on GitHub</a>. Each time I work on some task I&#8217;m creating a feature branch with the corresponding name (for instance <a href="https://issues.jboss.org/browse/ARQ-1186">ARQ-1186</a>). When I&#8217;m done with the work (or consistent part of it) I commit my changes:</p>
+<p>On my open source night shifts I&rsquo;m mainly involved in <a href="http://arquillian.org">Arquillian project</a> (more about it soon). All our code is <a href="http://github.com/arquillian">on GitHub</a>. Each time I work on some task I&rsquo;m creating a feature branch with the corresponding name (for instance <a href="https://issues.jboss.org/browse/ARQ-1186">ARQ-1186</a>). When I&rsquo;m done with the work (or consistent part of it) I commit my changes:</p>
 
 <pre><code>$ git commit -m"[ARQ-1186] Introduced new property in configuration  \
 file to define default (global) transaction mode"
 </code></pre>
 
-<p>But there&#8217;s a little annoying problem with this&#8230; I&#8217;m not really that keen to memorize the issue number and type these few extra characters by hand each and every time (yes! I&#8217;m that lazy!). Obviously you can always customize your shell by using <a href="http://www.japko.net/blog/lang/en/2012/05/29/pimp-my-git/">recipies from this blog</a> for instance, but that only solves part of the problem. You don&#8217;t need to remember this bloody issue number, but you still need to type it.</p>
+<p>But there&rsquo;s a little annoying problem with this&hellip; I&rsquo;m not really that keen to memorize the issue number and type these few extra characters by hand each and every time (yes! I&rsquo;m that lazy!). Obviously you can always customize your shell by using <a href="http://www.japko.net/blog/lang/en/2012/05/29/pimp-my-git/">recipies from this blog</a> for instance, but that only solves part of the problem. You don&rsquo;t need to remember this bloody issue number, but you still need to type it.</p>
 
 <p>So one day I was wondering if it would be possible to prepend commit message using branch information. It turned out to be damn easy.</p>
 
 <h3>Git hooks</h3>
 
-<p>Git is very powerful tool so no surprise that it has a concept of <a href="http://git-scm.com/book/en/Customizing-Git-Git-Hooks">hooks</a>. Hooks are scripts executed at the certain point of the git workflow. They can be written in any language your shell supports. In our case we are interested in executing script on client side before we commit. Let&#8217;s have a look what kind of local hooks we have in our repository&#8217;s <code>.git/hooks</code> folder :</p>
+<p>Git is very powerful tool so no surprise that it has a concept of <a href="http://git-scm.com/book/en/Customizing-Git-Git-Hooks">hooks</a>. Hooks are scripts executed at the certain point of the git workflow. They can be written in any language your shell supports. In our case we are interested in executing script on client side before we commit. Let&rsquo;s have a look what kind of local hooks we have in our repository&rsquo;s <code>.git/hooks</code> folder :</p>
 
 <pre><code>├── applypatch-msg.sample
 ├── commit-msg.sample
@@ -81,7 +103,7 @@ file to define default (global) transaction mode"
 └── update.sample
 </code></pre>
 
-<p>The names are rather self explanatory - we should use <code>prepare-commit-message</code> hook to achieve our goal.</p>
+<p>The names are rather self explanatory &ndash; we should use <code>prepare-commit-message</code> hook to achieve our goal.</p>
 
 <h3>A little bit of bash fu</h3>
 
@@ -755,7 +777,7 @@ I think you should use an
 </code></pre></noscript></div>
 
 
-<p>From now on we don&#8217;t need to remember the issue number anymore! Executing</p>
+<p>From now on we don&rsquo;t need to remember the issue number anymore! Executing</p>
 
 <pre><code>$ git commit -m"Introduced new property in configuration file \ 
 to define default (global) transaction mode" 
@@ -763,10 +785,12 @@ to define default (global) transaction mode"
 
 <p>will result with <code>[ARQ-1186] Introduced new property in configuration file to define default (global) transaction mode</code> as commit message. Life is so easier now ;)</p>
 
-<p><em><strong>Note:</strong> If you are using Eclipse git integration this approach won&#8217;t work. EGit is not aware of commit hooks.</em></p>
+<p><em><strong>Note:</strong> If you are using Eclipse git integration this approach won&rsquo;t work. EGit is not aware of commit hooks.</em></p>
 </div>
-    <div class="meta">
-        <div class="date">
+
+
+<div class="meta">
+	<div class="date">
 
 
 
@@ -779,57 +803,43 @@ to define default (global) transaction mode"
 
 
 <time datetime="2012-11-07T17:21:00+01:00" pubdate data-updated="true">Nov 7<span>th</span>, 2012</time></div>
-        <div class="tags">
+	<div class="tags">
 
-<div class="cat">
-  
-    <a class='category' href='/blog/categories/git/'>git</a>, <a class='category' href='/blog/categories/lazy/'>lazy</a>, <a class='category' href='/blog/categories/toolbox/'>toolbox</a>
-  
-</div>
+
+	<a class='category' href='/blog/categories/git/'>git</a>, <a class='category' href='/blog/categories/lazy/'>lazy</a>, <a class='category' href='/blog/categories/toolbox/'>toolbox</a>
+
 
 </div>
-        
-        <div class="comments"><a href="#disqus_thread">Comments</a></div>
-        
-    </div>
+	
+	<div class="comments"><a href="#disqus_thread">Comments</a></div>
+	
+</div>
 </article>
-<div class="share">
+
+	<div class="share">
 	<div class="addthis_toolbox addthis_default_style ">
-	
-	
-	<a class="addthis_button_tweet"></a>
-	
-	
-	<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
-	
-	<a class="addthis_counter addthis_pill_style"></a>
+		
+		
+		<a class="addthis_button_tweet"></a>
+		
+		
+		<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+		
+		
 	</div>
-	<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4eb4a0c47196e907"></script>
+	
 </div>
+
+
 
 <section id="comment">
-    <h1 class="title">Comments</h1>
+    <h2 class="title">Comments</h2>
     <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
 </section>
 </div>
-	
-<div id="banner" class="inner">
-	<div class="container">
-		<ul class="feed"></ul>
-	</div>
-	<small><a href="http://twitter.com/majson">majson</a> @ <a href="http://twitter.com">Twitter</a></small>
-	<div class="loading">Loading...</div>
-</div>
-<script src="/javascripts/twitter.js"></script>
-<script type="text/javascript">
-	(function($){
-		$('#banner').getTwitterFeed('majson', 4, false);
-	})(jQuery);
-</script>
-
-	<footer class="inner">	<div class="left">
-		Copyright &copy; 2012 -To be defined-
+	<footer id="footer" class="inner">	<div class="left">
+		Copyright &copy; 2013 -To be defined-
 	</div>
 	<div class="social right">
 		
@@ -853,9 +863,13 @@ to define default (global) transaction mode"
 		
 	</div>
 </footer>
-	<script src="/javascripts/jquery.easing.1.3.js"></script>
+	<script src="/javascripts/slash.js"></script>
 <script src="/javascripts/jquery.fancybox.pack.js"></script>
-<script src="/javascripts/slash.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
 
 
 <script type="text/javascript">
@@ -863,8 +877,8 @@ to define default (global) transaction mode"
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://bartoszmajsak.github.com/blog/2012/11/07/lazy-developers-toolbox-number-1-prepend-git-commit-messages/';
-        var disqus_url = 'http://bartoszmajsak.github.com/blog/2012/11/07/lazy-developers-toolbox-number-1-prepend-git-commit-messages/';
+        var disqus_identifier = 'http://blog.bartoszmajsak.com/blog/2012/11/07/lazy-developers-toolbox-number-1-prepend-git-commit-messages/';
+        var disqus_url = 'http://blog.bartoszmajsak.com/blog/2012/11/07/lazy-developers-toolbox-number-1-prepend-git-commit-messages/';
         var disqus_script = 'embed.js';
       
     (function () {
@@ -873,6 +887,20 @@ to define default (global) transaction mode"
       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     }());
 </script>
+
+
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-1099123-2']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
 
 
 
