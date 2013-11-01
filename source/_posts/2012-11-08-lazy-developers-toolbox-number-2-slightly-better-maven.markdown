@@ -12,11 +12,7 @@ I must admit I'm not really a huge fan of Maven, but I'm not going to rant how m
 
 One of the concepts which is really handy is _profile_. But isn't it a bit annoying when you make a typo in the name to discover it only after the whole build is done? Wouldn't it be cool to have autocompletion in the command line? Something like:
 
-```
-$ mvn -P<TAB>
--Pglassfish-3.1-embedded           -Pjbossas-7.1-managed-mssql 
--Pjbossas-7.0-managed     
-```
+<script type="text/javascript" src="http://asciinema.org/a/6167.js" id="asciicast-6167" async></script>
 
 There is a simple way of enabling it in _bash_ - very nice [autocompletion script](https://github.com/juven/maven-bash-completion/). Run this commands then restart your shell. You will be few keystrokes ahead.
 
@@ -33,5 +29,6 @@ Here's something extra (meaning it does not bring any value for lazy guys I gues
 $ curl https://raw.github.com/builddoctor/maven-antsy-color/master/mvn >>  \
 .maven_colorized.sh && echo 'source ~/.maven_colorized.sh' >> ~/.bashrc
 ```
+<script type="text/javascript" src="http://asciinema.org/a/6169.js" id="asciicast-6169" async></script>
 
 If you have some other cool tips just leave a comment!

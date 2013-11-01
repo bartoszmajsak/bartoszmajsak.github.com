@@ -6,6 +6,7 @@ footer{
 	
 	.social{
 			margin-right: 15px;
+			padding-bottom: 8px;
 			a{
 				@include border-radius(50%);
 				@include inline-block;
