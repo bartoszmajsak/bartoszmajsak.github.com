@@ -4,32 +4,36 @@
         <loc>
             http://blog.bartoszmajsak.com/blog/2012/11/07/lazy-developers-toolbox-number-1-prepend-git-commit-messages/
         </loc>
-        <lastmod>2013-11-01T10:41:00+01:00</lastmod>
+        <lastmod>2013-11-01T14:30:07+01:00</lastmod>
     </url>
     <url>
         <loc>
             http://blog.bartoszmajsak.com/blog/2012/11/08/lazy-developers-toolbox-number-2-slightly-better-maven/
         </loc>
-        <lastmod>2013-11-01T14:27:31+01:00</lastmod>
+        <lastmod>2013-11-01T14:30:07+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://blog.bartoszmajsak.com/blog/2013/11/24/my-devoxx-experience/</loc>
+        <lastmod>2013-11-25T01:10:14+01:00</lastmod>
     </url>
     <url>
         <loc>http://blog.bartoszmajsak.com/</loc>
-        <lastmod>2013-11-01T14:27:31+01:00</lastmod>
+        <lastmod>2013-11-25T01:10:14+01:00</lastmod>
     </url>
     <url>
         <loc>http://blog.bartoszmajsak.com/robots.txt</loc>
-        <lastmod>2013-11-01T10:29:47+01:00</lastmod>
+        <lastmod>2013-11-01T14:30:07+01:00</lastmod>
     </url>
     <url>
         <loc>http://blog.bartoszmajsak.com/blog/</loc>
-        <lastmod>2013-11-01T14:27:31+01:00</lastmod>
+        <lastmod>2013-11-25T01:10:14+01:00</lastmod>
     </url>
     <url>
         <loc>http://blog.bartoszmajsak.com/blog/archives/</loc>
-        <lastmod>2013-11-01T14:27:31+01:00</lastmod>
+        <lastmod>2013-11-25T01:10:14+01:00</lastmod>
     </url>
     <url>
         <loc>http://blog.bartoszmajsak.com/archives/</loc>
-        <lastmod>2013-11-01T14:27:31+01:00</lastmod>
+        <lastmod>2013-11-25T01:10:14+01:00</lastmod>
     </url>
 </urlset>

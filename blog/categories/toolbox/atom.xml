@@ -4,7 +4,7 @@
   <title><![CDATA[Category: toolbox | -To be defined-]]></title>
   <link href="http://blog.bartoszmajsak.com/blog/categories/toolbox/atom.xml" rel="self"/>
   <link href="http://blog.bartoszmajsak.com/"/>
-  <updated>2013-11-01T14:28:29+01:00</updated>
+  <updated>2013-11-25T01:11:46+01:00</updated>
   <id>http://blog.bartoszmajsak.com/</id>
   <author>
     <name><![CDATA[Bartosz Majsak]]></name>
@@ -95,7 +95,7 @@ file to define default (global) transaction mode"
 <noscript><pre><code>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
   &lt;head prefix=&quot;og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# githubog: http://ogp.me/ns/fb/githubog#&quot;&gt;
-    &lt;meta charset='utf-8'&gt;
+    &lt;meta charset=&#39;utf-8&#39;&gt;
     &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
         &lt;title&gt;404 · GitHub&lt;/title&gt;
     &lt;link rel=&quot;search&quot; type=&quot;application/opensearchdescription+xml&quot; href=&quot;/opensearch.xml&quot; title=&quot;GitHub&quot; /&gt;
@@ -274,8 +274,8 @@ file to define default (global) transaction mode"
   &lt;img alt=&quot;404 | &amp;ldquo;This is not the web page you are looking for&amp;rdquo;&quot; class=&quot;js-plaxify&quot; data-xrange=&quot;20&quot; data-yrange=&quot;10&quot; height=&quot;249&quot; id=&quot;parallax_error_text&quot; src=&quot;https://a248.e.akamai.net/assets.github.com/images/modules/404/parallax_errortext.png?1340659511&quot; width=&quot;271&quot; /&gt;
   &lt;img alt=&quot;Octobi Wan Catnobi&quot; class=&quot;js-plaxify&quot; data-xrange=&quot;10&quot; data-yrange=&quot;10&quot; height=&quot;230&quot; id=&quot;parallax_octocat&quot; src=&quot;https://a248.e.akamai.net/assets.github.com/images/modules/404/parallax_octocat.png?1340659511&quot; width=&quot;188&quot; /&gt;
   &lt;img alt=&quot;land speeder&quot; class=&quot;js-plaxify&quot; data-xrange=&quot;10&quot; data-yrange=&quot;10&quot; height=&quot;156&quot; id=&quot;parallax_speeder&quot; src=&quot;https://a248.e.akamai.net/assets.github.com/images/modules/404/parallax_speeder.png?1340659511&quot; width=&quot;440&quot; /&gt;
-  &lt;img alt=&quot;Octobi Wan Catnobi's shadow&quot; class=&quot;js-plaxify&quot; data-xrange=&quot;10&quot; data-yrange=&quot;10&quot; height=&quot;49&quot; id=&quot;parallax_octocatshadow&quot; src=&quot;https://a248.e.akamai.net/assets.github.com/images/modules/404/parallax_octocatshadow.png?1340659511&quot; width=&quot;166&quot; /&gt;
-  &lt;img alt=&quot;land speeder's shadow&quot; class=&quot;js-plaxify&quot; data-xrange=&quot;10&quot; data-yrange=&quot;10&quot; height=&quot;75&quot; id=&quot;parallax_speedershadow&quot; src=&quot;https://a248.e.akamai.net/assets.github.com/images/modules/404/parallax_speedershadow.png?1340659511&quot; width=&quot;430&quot; /&gt;
+  &lt;img alt=&quot;Octobi Wan Catnobi&#39;s shadow&quot; class=&quot;js-plaxify&quot; data-xrange=&quot;10&quot; data-yrange=&quot;10&quot; height=&quot;49&quot; id=&quot;parallax_octocatshadow&quot; src=&quot;https://a248.e.akamai.net/assets.github.com/images/modules/404/parallax_octocatshadow.png?1340659511&quot; width=&quot;166&quot; /&gt;
+  &lt;img alt=&quot;land speeder&#39;s shadow&quot; class=&quot;js-plaxify&quot; data-xrange=&quot;10&quot; data-yrange=&quot;10&quot; height=&quot;75&quot; id=&quot;parallax_speedershadow&quot; src=&quot;https://a248.e.akamai.net/assets.github.com/images/modules/404/parallax_speedershadow.png?1340659511&quot; width=&quot;430&quot; /&gt;
   &lt;img alt=&quot;building&quot; class=&quot;js-plaxify&quot; data-invert=&quot;true&quot; data-xrange=&quot;50&quot; data-yrange=&quot;20&quot; height=&quot;123&quot; id=&quot;parallax_building_1&quot; src=&quot;https://a248.e.akamai.net/assets.github.com/images/modules/404/parallax_building_1.png?1340659511&quot; width=&quot;304&quot; /&gt;
   &lt;img alt=&quot;building&quot; class=&quot;js-plaxify&quot; data-invert=&quot;true&quot; data-xrange=&quot;75&quot; data-yrange=&quot;30&quot; height=&quot;50&quot; id=&quot;parallax_building_2&quot; src=&quot;https://a248.e.akamai.net/assets.github.com/images/modules/404/parallax_building_2.png?1340659511&quot; width=&quot;116&quot; /&gt;
 &lt;/div&gt;
@@ -374,7 +374,7 @@ file to define default (global) transaction mode"
       &lt;/dl&gt;
     &lt;/div&gt;&lt;!-- /.column.first --&gt;
 
-    &lt;div class=&quot;column middle&quot; style='display:none'&gt;
+    &lt;div class=&quot;column middle&quot; style=&#39;display:none&#39;&gt;
       &lt;h3&gt;Commit list&lt;/h3&gt;
       &lt;dl class=&quot;keyboard-mappings&quot;&gt;
         &lt;dt&gt;j&lt;/dt&gt;
@@ -394,7 +394,7 @@ file to define default (global) transaction mode"
       &lt;/dl&gt;
     &lt;/div&gt;&lt;!-- /.column.first --&gt;
 
-    &lt;div class=&quot;column last js-hidden-pane&quot; style='display:none'&gt;
+    &lt;div class=&quot;column last js-hidden-pane&quot; style=&#39;display:none&#39;&gt;
       &lt;h3&gt;Pull request list&lt;/h3&gt;
       &lt;dl class=&quot;keyboard-mappings&quot;&gt;
         &lt;dt&gt;j&lt;/dt&gt;
@@ -420,7 +420,7 @@ file to define default (global) transaction mode"
 
   &lt;/div&gt;&lt;!-- /.columns.equacols --&gt;
 
-  &lt;div class=&quot;js-hidden-pane&quot; style='display:none'&gt;
+  &lt;div class=&quot;js-hidden-pane&quot; style=&#39;display:none&#39;&gt;
     &lt;div class=&quot;rule&quot;&gt;&lt;/div&gt;
 
     &lt;h3&gt;Issues&lt;/h3&gt;
@@ -477,7 +477,7 @@ file to define default (global) transaction mode"
     &lt;/div&gt;
   &lt;/div&gt;
 
-  &lt;div class=&quot;js-hidden-pane&quot; style='display:none'&gt;
+  &lt;div class=&quot;js-hidden-pane&quot; style=&#39;display:none&#39;&gt;
     &lt;div class=&quot;rule&quot;&gt;&lt;/div&gt;
 
     &lt;h3&gt;Issues Dashboard&lt;/h3&gt;
@@ -500,7 +500,7 @@ file to define default (global) transaction mode"
     &lt;/div&gt;
   &lt;/div&gt;
 
-  &lt;div class=&quot;js-hidden-pane&quot; style='display:none'&gt;
+  &lt;div class=&quot;js-hidden-pane&quot; style=&#39;display:none&#39;&gt;
     &lt;div class=&quot;rule&quot;&gt;&lt;/div&gt;
 
     &lt;h3&gt;Network Graph&lt;/h3&gt;
@@ -548,10 +548,10 @@ file to define default (global) transaction mode"
     &lt;/div&gt;
   &lt;/div&gt;
 
-  &lt;div class=&quot;js-hidden-pane&quot; style='display:none'&gt;
+  &lt;div class=&quot;js-hidden-pane&quot; style=&#39;display:none&#39;&gt;
     &lt;div class=&quot;rule&quot;&gt;&lt;/div&gt;
     &lt;div class=&quot;columns threecols&quot;&gt;
-      &lt;div class=&quot;column first js-hidden-pane&quot; style='display:none'&gt;
+      &lt;div class=&quot;column first js-hidden-pane&quot; style=&#39;display:none&#39;&gt;
         &lt;h3&gt;Source Code Browsing&lt;/h3&gt;
         &lt;dl class=&quot;keyboard-mappings&quot;&gt;
           &lt;dt&gt;t&lt;/dt&gt;
@@ -573,7 +573,7 @@ file to define default (global) transaction mode"
     &lt;/div&gt;
   &lt;/div&gt;
 
-  &lt;div class=&quot;js-hidden-pane&quot; style='display:none'&gt;
+  &lt;div class=&quot;js-hidden-pane&quot; style=&#39;display:none&#39;&gt;
     &lt;div class=&quot;rule&quot;&gt;&lt;/div&gt;
     &lt;div class=&quot;columns threecols&quot;&gt;
       &lt;div class=&quot;column first&quot;&gt;
@@ -598,7 +598,7 @@ file to define default (global) transaction mode"
     &lt;/div&gt;
   &lt;/div&gt;
 
-  &lt;div class=&quot;js-hidden-pane&quot; style='display:none'&gt;
+  &lt;div class=&quot;js-hidden-pane&quot; style=&#39;display:none&#39;&gt;
     &lt;div class=&quot;rule&quot;&gt;&lt;/div&gt;
     &lt;h3&gt;Notifications&lt;/h3&gt;
 
@@ -687,7 +687,7 @@ http://github.com - automatic!
      &lt;pre&gt;
 As Kanye West said:
 
-&gt; We're living the future so
+&gt; We&#39;re living the future so
 &gt; the present is our past.
 &lt;/pre&gt;
     &lt;/div&gt;
@@ -701,7 +701,7 @@ As Kanye West said:
 ```javascript
 function fancyAlert(arg) {
   if(arg) {
-    $.facebox({div:'#foo'})
+    $.facebox({div:&#39;#foo&#39;})
   }
 }
 ```&lt;/pre&gt;
@@ -752,7 +752,7 @@ I think you should use an
 
     
     
-    &lt;span id='server_response_time' data-time='0.02591' data-host='fe16'&gt;&lt;/span&gt;
+    &lt;span id=&#39;server_response_time&#39; data-time=&#39;0.02591&#39; data-host=&#39;fe16&#39;&gt;&lt;/span&gt;
     
   &lt;/body&gt;
 &lt;/html&gt;
