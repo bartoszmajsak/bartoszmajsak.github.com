@@ -18,6 +18,7 @@ group :development do
   gem 'directory_watcher', '1.4.1' 
   gem 'guard'
   gem 'guard-livereload'
+  gem 'asciidoctor'
 end
 
 gem 'sinatra', '~> 1.4.2'

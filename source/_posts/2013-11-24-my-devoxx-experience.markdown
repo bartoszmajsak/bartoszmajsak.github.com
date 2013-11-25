@@ -12,6 +12,8 @@ This won't be a regular blog post about [Devoxx](http://www.devoxx.be/) and talk
 
 Instead I would like to share with you how it really is to be there.
 
+<!-- More -->
+
 ## My Devoxx Experience
 
 {% img left img-padding /images/posts/beer-devoxx.jpg" %}

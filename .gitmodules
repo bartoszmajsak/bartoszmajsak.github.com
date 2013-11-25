@@ -1,0 +1,4 @@
+[submodule "modules/jekyll-asciidoc"]
+	path = modules/jekyll-asciidoc
+	url = git@github.com:asciidoctor/jekyll-asciidoc.git
+        ignore = dirty

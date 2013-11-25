@@ -40,7 +40,19 @@ rdiscount:
     - footnotes
     - smart
 highlighter: pygments # default python pygments have been replaced by pygments.rb
-
+pygments: false # default python pygments have been replaced by pygments.rb
+asciidoc: asciidoctor
+asciidoc_ext: asciidoc,adoc,ad
+asciidoctor:
+  safe: safe
+  attributes:
+    - notitle!
+    - hardbreaks!
+    - idprefix=
+    - idseparator=-
+    - linkattrs
+    - source-highlighter=coderay
+    - coderay-css=style
 
 paginate: 8          # Posts per page on the blog index
 pagination_dir: blog  # Directory base for pagination URLs eg. /blog/page/2/
@@ -52,7 +64,7 @@ titlecase: true       # Converts page and post titles to titlecase
 
 # list each of the sidebar modules you want to include, in the order you want them to appear.
 # To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'
-default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html]
+default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html, asides/custom/coderwall.html]
 
 # Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
 # and add an array with the asides you want to use.
@@ -110,3 +122,7 @@ linkedin_profile: bartoszmajsak
 
 # Last FM user
 lastfm_user: majson
+
+# Coderwall
+coderwall_user: bartoszmajsak
+coderwall_show_endorse_link: true
