@@ -6,7 +6,7 @@ comments: true
 categories: lazy toolbox git
 ---
 
-Being a good citizen of the open source community means following the rules concerning software development defined by the team. One of it, [sadly the one very frequently neglected](http://www.commitlogsfromlastnight.com/), is meaningful commit message with a reference to the task you worked on. Such an info can be later leveraged by tools like FishEye, but that's another story. So what's the problem with that for lazy guys like me?
+Being a good citizen of the open source community means following the rules concerning software development defined by the team. One of them, [sadly the one very frequently neglected](http://www.commitlogsfromlastnight.com/), is meaningful commit message with a reference to the task you worked on. Such an info can be later leveraged by tools like FishEye, but that's another story. So what's the problem with that for lazy guys like me?
 
 <!-- More -->
 

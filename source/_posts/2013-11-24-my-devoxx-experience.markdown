@@ -61,6 +61,19 @@ See you all next year!
 
 And by the way, Krab sandwiches are great. I don't understand why people are complaining about them all the time.
 
+**UPDATE**
+
+[Parleys/Devoxx team](http://parleys.com) have uploaded all talks their great platform. To my surprise "Quickies" were also recorded and are freely available from Day 1. 
+
+I think it's the first time in Devoxx history when they not only recorded these short talks, but also synchronized slides with the video of the speaker! 
+
+Exception here is Chet Haase with his brilliant, and hilarious at the same time, talks [[1]](http://parleys.com/play/5148922b0364bc17fc56c959/chapter0/about) [[2]](http://parleys.com/play/529cb762e4b039ad2298ca27/chapter0/about).
+
+If you want to see me in action, here's my talk from this year. Kudos to Stefan and the whole team!
+
+<div style="width:100%; float:left; text-align:center;">
+<iframe type="text/html" width="585" height="329" mozallowfullscreen="true" webkitallowfullscreen="true" src="http://parleys.com/share.html#play/52a7219ce4b0e619540cc49b" frameborder="0">&nbsp;</iframe>
+</div>
 <!-- Twitter widget script --> 
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
