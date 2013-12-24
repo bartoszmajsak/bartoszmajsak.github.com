@@ -4,7 +4,7 @@
   <title><![CDATA[-To be defined-]]></title>
   <link href="http://blog.bartoszmajsak.com/atom.xml" rel="self"/>
   <link href="http://blog.bartoszmajsak.com/"/>
-  <updated>2013-11-25T21:47:08+01:00</updated>
+  <updated>2013-12-24T16:27:02+01:00</updated>
   <id>http://blog.bartoszmajsak.com/</id>
   <author>
     <name><![CDATA[Bartosz Majsak]]></name>
@@ -76,6 +76,21 @@
 
 <p>And by the way, Krab sandwiches are great. I don&rsquo;t understand why people are complaining about them all the time.</p>
 
+<p><strong>UPDATE</strong></p>
+
+<p><a href="http://parleys.com">Parleys/Devoxx team</a> have uploaded all talks their great platform. To my surprise &ldquo;Quickies&rdquo; were also recorded and are freely available from Day 1.</p>
+
+<p>I think it&rsquo;s the first time in Devoxx history when they not only recorded these short talks, but also synchronized slides with the video of the speaker!</p>
+
+<p>Exception here is Chet Haase with his brilliant, and hilarious at the same time, talks <a href="http://parleys.com/play/5148922b0364bc17fc56c959/chapter0/about">[1]</a> <a href="http://parleys.com/play/529cb762e4b039ad2298ca27/chapter0/about">[2]</a>.</p>
+
+<p>If you want to see me in action, here&rsquo;s my talk from this year. Kudos to Stefan and the whole team!</p>
+
+<div style="width:100%; float:left; text-align:center;">
+<iframe type="text/html" width="585" height="329" mozallowfullscreen="true" webkitallowfullscreen="true" src="http://parleys.com/share.html#play/52a7219ce4b0e619540cc49b" frameborder="0">&nbsp;</iframe>
+</div>
+
+
 <!-- Twitter widget script -->
 
 
@@ -133,7 +148,7 @@
     <link href="http://blog.bartoszmajsak.com/blog/2012/11/07/lazy-developers-toolbox-number-1-prepend-git-commit-messages/"/>
     <updated>2012-11-07T17:21:00+01:00</updated>
     <id>http://blog.bartoszmajsak.com/blog/2012/11/07/lazy-developers-toolbox-number-1-prepend-git-commit-messages</id>
-    <content type="html"><![CDATA[<p>Being a good citizen of the open source community means following the rules concerning software development defined by the team. One of it, <a href="http://www.commitlogsfromlastnight.com/">sadly the one very frequently neglected</a>, is meaningful commit message with a reference to the task you worked on. Such an info can be later leveraged by tools like FishEye, but that&rsquo;s another story. So what&rsquo;s the problem with that for lazy guys like me?</p>
+    <content type="html"><![CDATA[<p>Being a good citizen of the open source community means following the rules concerning software development defined by the team. One of them, <a href="http://www.commitlogsfromlastnight.com/">sadly the one very frequently neglected</a>, is meaningful commit message with a reference to the task you worked on. Such an info can be later leveraged by tools like FishEye, but that&rsquo;s another story. So what&rsquo;s the problem with that for lazy guys like me?</p>
 
 <!-- More -->
 
