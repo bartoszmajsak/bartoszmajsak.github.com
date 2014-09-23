@@ -40,7 +40,6 @@ rdiscount:
     - footnotes
     - smart
 highlighter: pygments # default python pygments have been replaced by pygments.rb
-pygments: false # default python pygments have been replaced by pygments.rb
 asciidoc: asciidoctor
 asciidoc_ext: asciidoc,adoc,ad
 asciidoctor:
