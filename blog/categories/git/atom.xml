@@ -4,7 +4,7 @@
   <title><![CDATA[Category: git | -To be defined-]]></title>
   <link href="http://blog.bartoszmajsak.com/blog/categories/git/atom.xml" rel="self"/>
   <link href="http://blog.bartoszmajsak.com/"/>
-  <updated>2013-12-24T16:27:02+01:00</updated>
+  <updated>2014-09-24T00:07:19+02:00</updated>
   <id>http://blog.bartoszmajsak.com/</id>
   <author>
     <name><![CDATA[Bartosz Majsak]]></name>
@@ -47,7 +47,7 @@ file to define default (global) transaction mode"
 └── update.sample
 </code></pre>
 
-<p>The names are rather self explanatory &ndash; we should use <code>prepare-commit-message</code> hook to achieve our goal.</p>
+<p>The names are rather self explanatory - we should use <code>prepare-commit-message</code> hook to achieve our goal.</p>
 
 <h3>A little bit of bash fu</h3>
 
@@ -721,13 +721,10 @@ I think you should use an
 </code></pre></noscript></div>
 </p>
 
-<p>From now on we don&rsquo;t need to remember the issue number anymore! Executing</p>
-
-<pre><code>$ git commit -m"Introduced new property in configuration file \ 
-to define default (global) transaction mode" 
-</code></pre>
-
-<p>will result with <code>[ARQ-1186] Introduced new property in configuration file to define default (global) transaction mode</code> as commit message. Life is so easier now ;)</p>
+<p>From now on we don&rsquo;t need to remember the issue number anymore! Executing
+    $ git commit -m&#8221;Introduced new property in configuration file \
+    to define default (global) transaction mode&#8221;
+will result with <code>[ARQ-1186] Introduced new property in configuration file to define default (global) transaction mode</code> as commit message. Life is so easier now ;)</p>
 
 <p><em><strong>Note:</strong> If you are using Eclipse git integration this approach won&rsquo;t work. EGit is not aware of commit hooks.</em></p>
 ]]></content>

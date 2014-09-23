@@ -4,7 +4,7 @@
   <title><![CDATA[Category: toolbox | -To be defined-]]></title>
   <link href="http://blog.bartoszmajsak.com/blog/categories/toolbox/atom.xml" rel="self"/>
   <link href="http://blog.bartoszmajsak.com/"/>
-  <updated>2013-12-24T16:27:02+01:00</updated>
+  <updated>2014-09-24T00:07:19+02:00</updated>
   <id>http://blog.bartoszmajsak.com/</id>
   <author>
     <name><![CDATA[Bartosz Majsak]]></name>
@@ -28,21 +28,19 @@
 <script type="text/javascript" src="http://asciinema.org/a/6167.js" id="asciicast-6167" async></script>
 
 
-<p>There is a simple way of enabling it in <em>bash</em> &ndash; very nice <a href="https://github.com/juven/maven-bash-completion/">autocompletion script</a>. Run this commands then restart your shell. You will be few keystrokes ahead.</p>
+<p>There is a simple way of enabling it in <em>bash</em> - very nice <a href="https://github.com/juven/maven-bash-completion/">autocompletion script</a>. Run this commands then restart your shell. You will be few keystrokes ahead.</p>
 
-<p><code>
-$ curl https://raw.github.com/juven/maven-bash-completion/master/bash_completion.bash &gt;&gt;  \
+<pre><code>$ curl https://raw.github.com/juven/maven-bash-completion/master/bash_completion.bash &gt;&gt;  \
 .maven_bash_completion.sh &amp;&amp; echo 'source ~/.maven_bash_completion.sh' &gt;&gt; ~/.bashrc
-</code></p>
+</code></pre>
 
 <h3>Pimp your Maven</h3>
 
 <p>Here&rsquo;s something extra (meaning it does not bring any value for lazy guys I guess). Maven is well known for being a chatterbox, next to its passion for downloading the whole internet once in a while. It would be pretty handy to mark failures in red, warnings in yellow and so on and so forth. This <a href="https://github.com/bartoszmajsak/maven-antsy-color/blob/master/mvn"><em>sed</em> script</a> will do the job. Run following snippet and enjoy the rainbow!</p>
 
-<p><code>
-$ curl https://raw.github.com/builddoctor/maven-antsy-color/master/mvn &gt;&gt;  \
+<pre><code>$ curl https://raw.github.com/builddoctor/maven-antsy-color/master/mvn &gt;&gt;  \
 .maven_colorized.sh &amp;&amp; echo 'source ~/.maven_colorized.sh' &gt;&gt; ~/.bashrc
-</code></p>
+</code></pre>
 
 <script type="text/javascript" src="http://asciinema.org/a/6169.js" id="asciicast-6169" async></script>
 
@@ -85,7 +83,7 @@ file to define default (global) transaction mode"
 └── update.sample
 </code></pre>
 
-<p>The names are rather self explanatory &ndash; we should use <code>prepare-commit-message</code> hook to achieve our goal.</p>
+<p>The names are rather self explanatory - we should use <code>prepare-commit-message</code> hook to achieve our goal.</p>
 
 <h3>A little bit of bash fu</h3>
 
@@ -759,13 +757,10 @@ I think you should use an
 </code></pre></noscript></div>
 </p>
 
-<p>From now on we don&rsquo;t need to remember the issue number anymore! Executing</p>
-
-<pre><code>$ git commit -m"Introduced new property in configuration file \ 
-to define default (global) transaction mode" 
-</code></pre>
-
-<p>will result with <code>[ARQ-1186] Introduced new property in configuration file to define default (global) transaction mode</code> as commit message. Life is so easier now ;)</p>
+<p>From now on we don&rsquo;t need to remember the issue number anymore! Executing
+    $ git commit -m&#8221;Introduced new property in configuration file \
+    to define default (global) transaction mode&#8221;
+will result with <code>[ARQ-1186] Introduced new property in configuration file to define default (global) transaction mode</code> as commit message. Life is so easier now ;)</p>
 
 <p><em><strong>Note:</strong> If you are using Eclipse git integration this approach won&rsquo;t work. EGit is not aware of commit hooks.</em></p>
 ]]></content>
