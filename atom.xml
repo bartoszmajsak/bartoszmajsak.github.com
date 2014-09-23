@@ -4,7 +4,7 @@
   <title><![CDATA[-To be defined-]]></title>
   <link href="http://blog.bartoszmajsak.com/atom.xml" rel="self"/>
   <link href="http://blog.bartoszmajsak.com/"/>
-  <updated>2014-09-24T00:07:19+02:00</updated>
+  <updated>2014-09-24T00:51:35+02:00</updated>
   <id>http://blog.bartoszmajsak.com/</id>
   <author>
     <name><![CDATA[Bartosz Majsak]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[How Is It to Be at Devoxx?]]></title>
+    <title type="html"><![CDATA[How is it to be at Devoxx?]]></title>
     <link href="http://blog.bartoszmajsak.com/blog/2013/11/24/my-devoxx-experience/"/>
     <updated>2013-11-24T22:25:00+01:00</updated>
     <id>http://blog.bartoszmajsak.com/blog/2013/11/24/my-devoxx-experience</id>
@@ -144,7 +144,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Lazy Developer's Toolbox #1 - Prepend Git Commit Messages]]></title>
+    <title type="html"><![CDATA[Lazy Developer's Toolbox #1 - Prepend git commit messages]]></title>
     <link href="http://blog.bartoszmajsak.com/blog/2012/11/07/lazy-developers-toolbox-number-1-prepend-git-commit-messages/"/>
     <updated>2012-11-07T17:21:00+01:00</updated>
     <id>http://blog.bartoszmajsak.com/blog/2012/11/07/lazy-developers-toolbox-number-1-prepend-git-commit-messages</id>
